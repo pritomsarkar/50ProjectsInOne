@@ -1,28 +1,28 @@
-*{
-    font-family: 'Merriweather', serif;
+* {
+  font-family: "Merriweather", serif;
 }
-.head{
-    text-align: center;
-    background-color: rgb(171, 230, 148);
+.head {
+  text-align: center;
+  background-color: rgb(171, 230, 148);
 }
 .grid-container {
-    display: grid;
-    grid-template-columns: auto auto auto auto;
-    grid-gap: 20px;
-    background-color: #21d6f3;
-    padding: 10px;
-  }
-  
-  .grid-container > div {
-    background-color: rgba(255, 255, 255, 0.8);
-    border: 2px solid black;
-    padding-top: 10px;
-    text-align: center;
-    font-size: 30px;
-    box-shadow: 10px 10px;
-  }
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 20px;
+  background-color: #21d6f3;
+  padding: 10px;
+}
 
- a{
-    text-decoration: none;
-    color: black;
- }
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 2px solid black;
+  padding-top: 10px;
+  text-align: center;
+  font-size: 30px;
+  box-shadow: 10px 10px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
